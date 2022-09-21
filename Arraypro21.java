@@ -10,13 +10,21 @@ public class Arraypro21 {
 			for(int col=0;col<arr.length;col++)
 			{
 				System.out.println("input values");
-				arr[row][col]=vs.nextInt();
-					System.out.println(arr[col][row]);
+				arr[row][col]=vs.nextInt();		
 			
+		    }
 		}
 		
 			System.out.println();
-		
+			
+			for(int row=0;row<arr.length;row++)
+			{
+				for(int col=0;col<arr.length;col++)
+				{
+                    
+				 System.out.print(arr[row][col]);
+			}
+		System.out.println();
 	}
 
 }
